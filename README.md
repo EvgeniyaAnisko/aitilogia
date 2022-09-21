@@ -1,3 +1,3 @@
 # Айтилогия
 
-## (Первый проект)[https://evgeniyaanisko.github.io/aitilogia/first_project/]
+## [Первый проект](https://evgeniyaanisko.github.io/aitilogia/first_project/)
