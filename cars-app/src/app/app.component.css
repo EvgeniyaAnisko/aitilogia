@@ -83,12 +83,12 @@
   transition: background-color 0.5s;
 }
 
-.button:hover:not(:disabled){
+.button:hover:not(:disabled) {
   cursor: pointer;
   background: #575757;
 }
 
-.button:disabled{
+.button:disabled {
   cursor: not-allowed;
   color: grey;
   background: #343434;
@@ -121,6 +121,7 @@
 .car-item-image:hover img {
   transform: scale(1.1);
 }
+
 .car-item-image img {
   vertical-align: bottom;
   transition: all .3s;
@@ -161,7 +162,7 @@
   height: 54px;
 }
 
-.car-item-point > div:nth-child(2) {
+.car-item-point>div:nth-child(2) {
   font-weight: bold;
 }
 
@@ -238,4 +239,36 @@
 
 .price-input.ng-touched.ng-invalid {
   border: 1px solid red;
+}
+
+.car-toggle {
+  display: flex;
+  width: 194px;
+  border: 1px solid gray;
+  margin: 20px 0;
+}
+
+.car-toggle div {
+  padding: 20px;
+  background: white;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: black;
+  transition: background-color .5s;
+  cursor: pointer;
+}
+
+.car-toggle div.active {
+  background: #030305;
+  color: #FFFFFF;
+}
+
+.car .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
